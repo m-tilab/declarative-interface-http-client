@@ -9,6 +9,7 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 import org.springframework.web.service.registry.ImportHttpServices;
 
 @Configuration
+// comment the following method when you are using Spring framework 6.0
 @ImportHttpServices(group = "users", basePackages = "com.example.declarativeinterfacehttpclient.httpclient")
 public class HttpClientConfiguration {
 
@@ -18,6 +19,7 @@ public class HttpClientConfiguration {
                 .builder();
     }
 
+    // Uncomment the following method when you are using Spring framework 6.0
 //    @Bean
 //    UserHttpClient userHttpClient(RestClient.Builder builder) {
 //        RestClient restClient = builder
