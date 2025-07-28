@@ -1,5 +1,6 @@
-package com.example.declarativeinterfacehttpclient.user;
+package com.example.declarativeinterfacehttpclient.httpclient;
 
+import com.example.declarativeinterfacehttpclient.user.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

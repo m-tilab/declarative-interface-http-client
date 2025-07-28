@@ -1,11 +1,11 @@
-package com.example.declarativeinterfacehttpclient.user;
+package com.example.declarativeinterfacehttpclient.restclient;
 
+import com.example.declarativeinterfacehttpclient.user.User;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 import java.util.List;
-import java.util.Optional;
 
 @Component
 public class UserRestClient {
